@@ -11,10 +11,18 @@
   --white: #ffffff;
   --light-blue: #4c36c3;
   --sky-blue: #379cbe;
-  --blue: #16223b;
+  /* --blue: #16223b; */
+  --blue: #0f172a;
   --font-vietnan: "Be Vietnam Pro", sans-serif;
 }
 
+/* :root {
+  --white: #000;
+  --blue: #ffffff;
+  --sky-blue: #379cbe;
+
+  --font-vietnan: "Be Vietnam Pro", sans-serif;
+} */
 header {
   position: relative;
   overflow: hidden;
@@ -36,8 +44,8 @@ img {
   justify-content: space-between;
   align-items: center;
   padding-top: 2.5625rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   position: relative;
   z-index: 1;
 }
@@ -116,12 +124,12 @@ h2 {
   font-weight: bold;
   font-size: 2rem;
   line-height: 140%;
-  text-align: left;
+  /* text-align: left; */
   color: var(--white);
   font-family: var(--font-vietnan);
 }
 p {
-  text-align: left;
+  /* text-align: left; */
   font-size: 1rem;
   color: var(--white);
   font-weight: 400;
@@ -147,14 +155,16 @@ button:hover {
 }
 /*intro*/
 .intro {
-  padding-top: 4.5rem;
-  padding-bottom: 112px;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-top: 3.5rem;
+  /* padding-bottom: 112px; */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
   /* border: 1px solid red; */
 }
 .im {
-  text-align: left;
+  /* text-align: left; */
+  text-align: center;
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 162.5%;
@@ -172,7 +182,8 @@ button:hover {
   letter-spacing: -0.06rem;
   line-height: 110%;
   font-size: 2.5rem;
-  text-align: left;
+  /* text-align: left; */
+  text-align: center;
   font-weight: 700;
   color: var(--white);
   font-family: var(--font-vietnan);
@@ -183,13 +194,15 @@ button:hover {
 }
 /*About*/
 .about-me {
-  padding-top: 3.5rem;
-  padding-bottom: 112px;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-top: 7.5rem;
+  /* padding-bottom: 112px; */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
 }
 .about-image {
   position: relative;
+  display: none;
   /* max-width: 37.5rem; */
 }
 .image {
@@ -215,8 +228,84 @@ button:hover {
 .frame {
   display: none;
 }
-.about-text {
+
+/*portfoloi*/
+.portfolio {
+  padding-top: 7.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+.pro-num {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 162.5%;
+  margin-top: 1.5rem;
+  font-family: var(--font-vietnan);
+  color: var(--sky-blue);
+}
+.buttons {
+  display: flex;
+  margin-top: 1rem;
+  gap: 2rem;
+}
+.portfolio #code {
+  background-color: transparent;
+  background-image: none;
+  border: 2px solid var(--sky-blue);
+  /* border: 4px solid transparent;
+  border-image: linear-gradient(to right, #379cbe, #4c36c3);
+  border-image-slice: 1; */
+}
+.portfolio #code:hover {
+  border: 2px solid var(--light-blue);
+}
+
+/*project*/
+.project-wraper {
+  display: grid;
+  gap: 3.5rem;
+}
+.project {
+  display: grid;
   margin-top: 3.5rem;
+  /* border: 1px solid red; */
+  /* background-color: #2a3f6c; */
+}
+.tools {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 2rem;
+}
+.tools div {
+  width: 25px;
+  height: 25px;
+}
+
+.project-image img {
+  border-radius: 0;
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.project h2,
+.project p,
+.pro-num {
+  text-align: left;
+}
+.project-image .frame {
+  display: none;
+}
+/**/
+.experience {
+  padding-top: 7.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
 }
 @media screen and (min-width: 64rem) {
   /*nav*/
@@ -264,15 +353,19 @@ button:hover {
 
   /*intro*/
   .intro {
-    padding-top: 7.5rem;
+    padding-top: 10.5rem;
     max-width: 81rem;
     margin: auto;
     padding-left: 3.5rem;
     padding-right: 3.5rem;
+    text-align: left;
   }
   .intro-text {
     /* max-width: 37.5rem; */
     display: block;
+  }
+  .im {
+    text-align: left;
   }
   .intro-text h1 {
     text-align: left;
@@ -287,11 +380,13 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 100px;
+    padding-top: 10.5rem;
     padding-left: 3.5rem;
     padding-right: 3.5rem;
   }
   .about-text,
   .about-image {
+    display: block;
     max-width: 600px;
     width: 100%;
     /* border: 1px solid red; */
@@ -313,11 +408,61 @@ button:hover {
   }
   .about-image img {
     border-radius: 8px;
+    height: auto;
   }
   .about-text {
+    text-align: left;
     margin-top: 0;
   }
   .shadow {
     border-radius: 0;
+  }
+  /*portfolio*/
+  .portfolio {
+    padding-top: 10.5rem;
+    max-width: 81rem;
+    margin: auto;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    /* text-align: left; */
+  }
+
+  .project-wrapper {
+    padding-top: 3.5rem;
+  }
+
+  .project {
+    /* display: grid; */
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    text-align: left;
+  }
+  .project-image {
+    position: relative;
+    /* width: 400px; */
+    height: 400px;
+    /* order: 2; */
+  }
+  .one .project-image,
+  .three .project-image {
+    order: 2;
+  }
+  .project-image .frame {
+    bottom: -45px;
+    left: -25px;
+    border: 8px solid var(--sky-blue);
+  }
+  .project-image img {
+    display: block;
+    height: 400px;
+  }
+  .project h2,
+  .project p {
+    text-align: left;
+  }
+  .project-image .frame {
+    display: block;
   }
 }
