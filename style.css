@@ -15,7 +15,9 @@
   --blue: #0f172a;
   --font-vietnan: "Be Vietnam Pro", sans-serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 header {
   position: relative;
   overflow: hidden;
@@ -356,10 +358,9 @@ button:hover {
 .email,
 .remote {
   display: flex;
+  gap: 0.61rem;
   align-items: center;
-  flex-shrink: 1;
   flex-wrap: wrap;
-  /* border: 1px solid red; */
 }
 
 .form {
@@ -501,9 +502,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 3.5rem;
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
+    padding: 3.5rem;
     max-width: 81rem;
     margin: auto;
   }
@@ -597,7 +596,7 @@ footer {
 
   /*contact*/
   .contact {
-    /* padding-top: 10.5rem; */
+    /* margin-top: 10.5rem; */
   }
   .contact h2 {
     text-align: center;

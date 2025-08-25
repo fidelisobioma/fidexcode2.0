@@ -13,7 +13,7 @@
         <!--mobile nav-->
         <div class="mobilenavbar">
           <div class="nav-header">
-            <div class="logo"><a href="">FidexCode</a></div>
+            <div class="logo"><a href="#home">FidexCode</a></div>
             <div class="open-menu">
               <img src="./images/hamburger.png" alt="hamburger" />
             </div>
@@ -24,42 +24,46 @@
               <img src="./images/close-icon.png" alt="close button" />
             </div>
             <ul class="nav-list">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About me</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Experience</a></li>
-              <div><button>CONTACT</button></div>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About me</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <div>
+                <button><a href="#contact">CONTACT</a></button>
+              </div>
             </ul>
           </div>
         </div>
         <!--desk nav-->
         <div class="nav-header-desk">
           <div class="desk-logo">
-            <div class="logo"><a href="fidexcode">Fidexcode</a></div>
+            <div class="logo"><a href="#home">Fidexcode</a></div>
           </div>
           <div>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About me</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Experience</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About me</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#experience">Experience</a></li>
             </ul>
           </div>
-          <div><button>CONTACT</button></div>
+          <div>
+            <button><a href="#contact">CONTACT</a></button>
+          </div>
         </div>
       </nav>
       <!--intro-->
-      <div class="intro">
+      <div class="intro" id="home">
         <di class="intro-text">
           <div class="im">I'm a</div>
           <h1>FRONTEND WEBSITE DEVELOPER <span class="dot"></span></h1>
-          <button><a href="">SEE PORTFOLIO</a></button>
+          <button><a href="#portfolio">SEE PORTFOLIO</a></button>
         </di>
       </div>
     </header>
     <main>
       <!--About me-->
-      <div class="about-me">
+      <div class="about-me" id="about">
         <!--image-->
         <div class="about-image">
           <div class="image">
@@ -72,24 +76,19 @@
         <div class="about-text">
           <h2>About me</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores,
-            accusantium, dolore tenetur aspernatur, illo fugiat voluptates
-            cumque sequi minus distinctio itaque? Impedit, voluptate dolorum a
-            commodi eum animi tenetur ut! Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Dolores, accusantium, dolore tenetur
-            aspernatur, illo fugiat voluptates cumque sequi minus distinctio
-            itaque? Impedit, voluptate dolorum a commodi eum animi tenetur ut!
+            I'm fidelis, a skilled Frontend developer. I specialise in building
+            fast, accessible, and user-friendly web applications using React JS
+            and Tailwind css, with a strong foundation in HTML, CSS, and
+            JavaScript. I craft seamless digital experiences that exceed
+            expectations and drive results.
           </p>
-          <button>HIRE ME</button>
+          <button><a href="#contact">HIRE ME</a></button>
         </div>
       </div>
       <!--portfolio-->
-      <div class="portfolio">
+      <div class="portfolio" id="portfolio">
         <h2>PORTFOLIO</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-          quasi,
-        </p>
+        <p>Some of my awesome projects</p>
         <!--project-->
         <div>
           <div class="project-wraper">
@@ -106,21 +105,30 @@
                 <div class="pro-num">PROJECT <span class="im">01</span></div>
                 <h2>Audiophole Ecommerce Website</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nihil eveniet totam placeat id dignissimos magni, doloribus
-                  sed laboriosam natus tempora impedit numquam nobis corrupti
-                  commodi rem eum eos debitis. Explicabo enim ex nulla sint
-                  expedita facilis reiciendis architecto vitae?
+                  Audiophile is the premier store for high end headphones,
+                  earphones, speakers, and audio accessories. With a large
+                  showroom and luxury demonstration rooms available for you to
+                  browse and experience a wide range products.
                 </p>
                 <div class="tools">
                   <div><img src="./images/react-icon.png" alt="react" /></div>
                   <div>
                     <img src="./images/tailwind-icon.png" alt="tailwind css" />
                   </div>
+                  <div>
+                    <img src="./images/JS-icon.png" alt="JavaScript" />
+                  </div>
                 </div>
                 <div class="buttons">
-                  <button><a href="">LIVE PREVIEW</a></button
-                  ><button id="code"><a href="">VIEW CODE</a></button>
+                  <button>
+                    <a href="https://audiophile-peach.vercel.app/"
+                      >LIVE PREVIEW</a
+                    ></button
+                  ><button id="code">
+                    <a href="https://github.com/fidelisobioma/audiophile.git"
+                      >VIEW CODE</a
+                    >
+                  </button>
                 </div>
               </div>
             </div>
@@ -129,30 +137,40 @@
               <!--project image-->
               <div class="project-image">
                 <div class="image">
-                  <img src="./images/audiophile.png" alt="Audiophole" />
+                  <img src="./images/countries_app.jpg" alt="countries app" />
                   <!-- <div class="shadow"></div> -->
                 </div>
                 <div class="frame"></div>
               </div>
               <div class="project-description">
-                <div class="pro-num">PROJECT <span class="im">01</span></div>
-                <h2>Audiophole Ecommerce Website</h2>
+                <div class="pro-num">PROJECT <span class="im">02</span></div>
+                <h2>Rest Countries App</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nihil eveniet totam placeat id dignissimos magni, doloribus
-                  sed laboriosam natus tempora impedit numquam nobis corrupti
-                  commodi rem eum eos debitis. Explicabo enim ex nulla sint
-                  expedita facilis reiciendis architecto vitae?
+                  The Rest Countries app is a website with different countries
+                  data like Name, population, languages, capital, currency,
+                  region, and native name. Allow users to learn about different
+                  countries around the world without the need to travel.
                 </p>
                 <div class="tools">
                   <div><img src="./images/react-icon.png" alt="react" /></div>
                   <div>
                     <img src="./images/tailwind-icon.png" alt="tailwind css" />
                   </div>
+                  <div>
+                    <img src="./images/JS-icon.png" alt="JavaScript" />
+                  </div>
                 </div>
                 <div class="buttons">
-                  <button><a href="">LIVE PREVIEW</a></button
-                  ><button id="code"><a href="">VIEW CODE</a></button>
+                  <button>
+                    <a href="https://rest-countries-app-chi.vercel.app/"
+                      >LIVE PREVIEW</a
+                    ></button
+                  ><button id="code">
+                    <a
+                      href="https://github.com/fidelisobioma/Rest-countries-api.git"
+                      >VIEW CODE</a
+                    >
+                  </button>
                 </div>
               </div>
             </div>
@@ -161,30 +179,40 @@
               <!--project image-->
               <div class="project-image">
                 <div class="image">
-                  <img src="./images/audiophile.png" alt="Audiophole" />
+                  <img src="./images/digitalbank.jpg" alt="Digital bank" />
                   <!-- <div class="shadow"></div> -->
                 </div>
                 <div class="frame"></div>
               </div>
               <div class="project-description">
-                <div class="pro-num">PROJECT <span class="im">01</span></div>
-                <h2>Audiophole Ecommerce Website</h2>
+                <div class="pro-num">PROJECT <span class="im">03</span></div>
+                <h2>Digital Bank</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Nihil eveniet totam placeat id dignissimos magni, doloribus
-                  sed laboriosam natus tempora impedit numquam nobis corrupti
-                  commodi rem eum eos debitis. Explicabo enim ex nulla sint
-                  expedita facilis reiciendis architecto vitae?
+                  Digitalbank bank is a modern bank for spending, saving,
+                  budgeting, investing, and much more.
                 </p>
                 <div class="tools">
-                  <div><img src="./images/react-icon.png" alt="react" /></div>
                   <div>
-                    <img src="./images/tailwind-icon.png" alt="tailwind css" />
+                    <img src="./images/JS-icon.png" alt="JavaScript" />
+                  </div>
+                  <div>
+                    <img src="./images/css-icon.png" alt="CSS" />
+                  </div>
+                  <div>
+                    <img src="./images/html-icon.png" alt="CSS" />
                   </div>
                 </div>
                 <div class="buttons">
-                  <button><a href="">LIVE PREVIEW</a></button
-                  ><button id="code"><a href="">VIEW CODE</a></button>
+                  <button>
+                    <a href="https://digitalbank-landing-page.vercel.app/"
+                      >LIVE PREVIEW</a
+                    ></button
+                  ><button id="code">
+                    <a
+                      href="https://github.com/fidelisobioma/Digitalbank-landing-page.git"
+                      >VIEW CODE</a
+                    >
+                  </button>
                 </div>
               </div>
             </div>
@@ -193,7 +221,7 @@
       </div>
 
       <!--Experience-->
-      <div class="experience">
+      <div class="experience" id="experience">
         <h2>EXPERIENCE</h2>
         <p>Technologies and tools</p>
         <div class="skills">
@@ -225,16 +253,13 @@
         </div>
       </div>
       <!--Contact-->
-      <div class="contact">
+      <div class="contact" id="contact">
         <h2>CONTACT</h2>
         <div class="contact-container">
           <div>
             <h3>DROP ME A MESSAGE</h3>
 
-            <p>
-              sit, amet consectetur adipisicing elit. Voluptatem nemo non
-              repellendus nihil reiciendis! Ducimus.
-            </p>
+            <p>Have any opportunities? reach out to me.</p>
 
             <div class="socials-container">
               <div class="call">
@@ -273,7 +298,6 @@
         </div>
 
         <div class="footer">
-          <hr />
           <div class="footer-container">
             <div><h2>Fidexcode</h2></div>
             <div><p>2025 fidexcode. All right reserved</p></div>
