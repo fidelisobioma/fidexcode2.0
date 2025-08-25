@@ -16,13 +16,6 @@
   --font-vietnan: "Be Vietnam Pro", sans-serif;
 }
 
-/* :root {
-  --white: #000;
-  --blue: #ffffff;
-  --sky-blue: #379cbe;
-
-  --font-vietnan: "Be Vietnam Pro", sans-serif;
-} */
 header {
   position: relative;
   overflow: hidden;
@@ -44,10 +37,16 @@ img {
   justify-content: space-between;
   align-items: center;
   padding-top: 2.5625rem;
+  padding-bottom: 2.5625rem;
   padding-left: 1rem;
   padding-right: 1rem;
   position: relative;
   z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--blue);
 }
 .overlay {
   position: fixed;
@@ -57,7 +56,7 @@ img {
   top: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 999;
+  z-index: 1;
   transform: translateX(100%);
   visibility: hidden;
   transition:
@@ -73,11 +72,11 @@ img {
   height: auto;
 }
 .close {
-  width: 1.31rem;
-  height: 1.31rem;
+  width: 30px;
+  height: auto;
   position: absolute;
   right: 25px;
-  top: 38px;
+  top: 50px;
 }
 .hide {
   visibility: hidden;
@@ -93,6 +92,7 @@ img {
   margin-top: 6.4rem;
   padding: 2.5rem;
   border-radius: 0.25rem;
+  z-index: 1;
 }
 
 .nav-list li a {
@@ -103,6 +103,7 @@ img {
   line-height: 145%;
   text-decoration: none;
 }
+
 .nav-header-desk {
   display: none;
 }
@@ -155,12 +156,10 @@ button:hover {
 }
 /*intro*/
 .intro {
-  padding-top: 3.5rem;
-  /* padding-bottom: 112px; */
+  padding-top: 10.06rem;
   padding-left: 1rem;
   padding-right: 1rem;
   text-align: center;
-  /* border: 1px solid red; */
 }
 .im {
   /* text-align: left; */
@@ -182,7 +181,6 @@ button:hover {
   letter-spacing: -0.06rem;
   line-height: 110%;
   font-size: 2.5rem;
-  /* text-align: left; */
   text-align: center;
   font-weight: 700;
   color: var(--white);
@@ -202,11 +200,10 @@ button:hover {
 .about-image {
   position: relative;
   display: none;
-  /* max-width: 37.5rem; */
 }
 .image {
   position: relative;
-  z-index: 1;
+  z-index: -1;
 }
 .shadow {
   display: block;
@@ -261,7 +258,7 @@ button:hover {
 
 /*project*/
 .project-wraper {
-  /* display: grid; */
+  display: grid;
   gap: 3.5rem;
 }
 .project {
@@ -293,6 +290,7 @@ button:hover {
 }
 .project-image .frame {
   display: none;
+  /* z-index: -1; */
 }
 /*experience*/
 .experience {
@@ -485,7 +483,12 @@ footer {
   /*nav*/
   .nav-header-desk {
     display: block;
-    /* border: 1px solid red; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--blue);
+    z-index: 999;
   }
 
   .nav-list {
@@ -546,7 +549,7 @@ footer {
   }
   .image {
     position: relative;
-    z-index: 1;
+    z-index: -1;
   }
   .frame {
     display: block;
@@ -558,6 +561,7 @@ footer {
     position: absolute;
     bottom: -20px;
     right: -30px;
+    z-index: -2;
   }
   .about-image img {
     border-radius: 8px;
