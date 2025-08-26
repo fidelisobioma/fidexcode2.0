@@ -11,7 +11,6 @@
   --white: #ffffff;
   --light-blue: #4c36c3;
   --sky-blue: #379cbe;
-  /* --blue: #16223b; */
   --blue: #0f172a;
   --font-vietnan: "Be Vietnam Pro", sans-serif;
 }
@@ -31,7 +30,6 @@ body {
 
 img {
   width: 100%;
-  /* display: block; */
 }
 
 .nav-header {
@@ -127,12 +125,10 @@ h2 {
   font-weight: bold;
   font-size: 2rem;
   line-height: 140%;
-  /* text-align: left; */
   color: var(--white);
   font-family: var(--font-vietnan);
 }
 p {
-  /* text-align: left; */
   font-size: 1rem;
   color: var(--white);
   font-weight: 400;
@@ -164,7 +160,6 @@ button:hover {
   text-align: center;
 }
 .im {
-  /* text-align: left; */
   text-align: center;
   font-size: 1.5rem;
   font-weight: 700;
@@ -292,7 +287,6 @@ button:hover {
 }
 .project-image .frame {
   display: none;
-  /* z-index: -1; */
 }
 /*experience*/
 .experience {
@@ -332,7 +326,6 @@ button:hover {
 .contact-container {
   display: grid;
   padding-top: 1.5rem;
-  /* border: 1px solid red; */
 }
 
 .socials-container {
@@ -369,7 +362,6 @@ button:hover {
     0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 8px;
-  /* max-width: 350px; */
   padding: 2.5rem;
   margin-top: 3.5rem;
 }
@@ -422,7 +414,6 @@ footer {
     text-align: left;
   }
   .intro-text {
-    /* max-width: 37.5rem; */
     display: block;
   }
   .im {
@@ -455,7 +446,6 @@ footer {
   }
   .project-image {
     position: relative;
-    /* width: 400px; */
     height: 400px;
     /* order: 2; */
   }
@@ -544,7 +534,6 @@ footer {
     display: block;
     max-width: 600px;
     width: 100%;
-    /* border: 1px solid red; */
   }
   .image {
     position: relative;
@@ -580,7 +569,6 @@ footer {
     margin: auto;
     padding-left: 3.5rem;
     padding-right: 3.5rem;
-    /* text-align: left; */
   }
   .project-image .frame {
     display: block;
@@ -595,16 +583,12 @@ footer {
   }
 
   /*contact*/
-  .contact {
-    /* margin-top: 10.5rem; */
-  }
   .contact h2 {
     text-align: center;
   }
   .contact-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* justify-content: space-between; */
     align-items: center;
     max-width: 81rem;
     margin: auto;

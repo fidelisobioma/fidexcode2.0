@@ -19,3 +19,7 @@ navList.addEventListener("click", () => {
   OpenBtn.classList.remove("hide");
   overlay.classList.remove("show");
 });
+
+const date = document.querySelector(".date");
+const cuurentDate = new Date().getFullYear();
+date.textContent = cuurentDate;
