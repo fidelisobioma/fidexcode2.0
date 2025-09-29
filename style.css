@@ -55,7 +55,7 @@ img {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
   transform: translateX(100%);
   visibility: hidden;
@@ -72,11 +72,11 @@ img {
   height: auto;
 }
 .close {
-  width: 30px;
+  width: 25px;
   height: auto;
   position: absolute;
-  right: 25px;
-  top: 50px;
+  left: 10px;
+  top: 10px;
 }
 .hide {
   visibility: hidden;
@@ -84,15 +84,20 @@ img {
 .nav-list {
   background-color: var(--white);
   list-style: none;
-  max-width: 20.31rem;
+  /* max-width: 20.31rem; */
+  width: 300px;
   text-align: center;
-  margin: auto;
+  /* margin: auto; */
   display: grid;
-  gap: 1.5rem;
-  margin-top: 6.4rem;
+  /* gap: 1.5rem; */
+  /* margin-top: 6.4rem; */
   padding: 2.5rem;
   border-radius: 0.25rem;
+  position: absolute;
   z-index: 1;
+  height: 100vh;
+  top: 0;
+  right: 0;
 }
 
 .nav-list li a {
@@ -100,7 +105,7 @@ img {
   color: var(--blue);
   font-weight: bold;
   font-size: 1rem;
-  line-height: 145%;
+  /* line-height: 145%; */
   text-decoration: none;
 }
 
@@ -157,7 +162,7 @@ button:hover {
   padding-top: 10.06rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  text-align: center;
+  /* text-align: center; */
 }
 .resume {
   display: flex;
@@ -167,7 +172,7 @@ button:hover {
   align-items: center;
 }
 .im {
-  text-align: center;
+  /* text-align: center; */
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 162.5%;
@@ -185,7 +190,8 @@ button:hover {
   letter-spacing: -0.06rem;
   line-height: 110%;
   font-size: 2.5rem;
-  text-align: center;
+  /* text-align: center; */
+  /* border: 1px solid red; */
   font-weight: 700;
   color: var(--white);
   font-family: var(--font-vietnan);
@@ -193,10 +199,10 @@ button:hover {
 
 /*About*/
 .about-me {
-  padding-top: 7.5rem;
+  padding-top: 5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  text-align: center;
+  /* text-align: center; */
 }
 .about-image {
   position: relative;
