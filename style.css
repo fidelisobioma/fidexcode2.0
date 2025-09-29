@@ -84,13 +84,9 @@ img {
 .nav-list {
   background-color: var(--white);
   list-style: none;
-  /* max-width: 20.31rem; */
   width: 300px;
   text-align: center;
-  /* margin: auto; */
   display: grid;
-  /* gap: 1.5rem; */
-  /* margin-top: 6.4rem; */
   padding: 2.5rem;
   border-radius: 0.25rem;
   position: absolute;
@@ -105,7 +101,6 @@ img {
   color: var(--blue);
   font-weight: bold;
   font-size: 1rem;
-  /* line-height: 145%; */
   text-decoration: none;
 }
 
@@ -162,7 +157,6 @@ button:hover {
   padding-top: 10.06rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  /* text-align: center; */
 }
 .resume {
   display: flex;
@@ -172,7 +166,6 @@ button:hover {
   align-items: center;
 }
 .im {
-  /* text-align: center; */
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 162.5%;
@@ -190,8 +183,6 @@ button:hover {
   letter-spacing: -0.06rem;
   line-height: 110%;
   font-size: 2.5rem;
-  /* text-align: center; */
-  /* border: 1px solid red; */
   font-weight: 700;
   color: var(--white);
   font-family: var(--font-vietnan);
@@ -202,7 +193,6 @@ button:hover {
   padding-top: 5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  /* text-align: center; */
 }
 .about-image {
   position: relative;
