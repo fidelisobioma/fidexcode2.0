@@ -225,6 +225,10 @@ button:hover {
 .frame {
   display: none;
 }
+.hireme {
+  display: block;
+  margin-top: 1rem;
+}
 
 /*portfoloi*/
 .portfolio {
@@ -264,7 +268,8 @@ button:hover {
   border: 2px solid var(--sky-blue);
   display: inline-block;
 }
-.portfolio #code:hover {
+.portfolio #code:hover,
+.cv:hover {
   border: 2px solid var(--light-blue);
 }
 
@@ -454,7 +459,9 @@ footer {
   .project-wrapper {
     padding-top: 3.5rem;
   }
-
+  .skills {
+    grid-template-columns: repeat(4, 1fr);
+  }
   .project {
     display: grid;
     justify-content: center;
