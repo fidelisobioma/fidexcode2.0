@@ -190,7 +190,7 @@ button:hover {
 
 /*About*/
 .about-me {
-  padding-top: 5rem;
+  padding-top: 7.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -330,7 +330,7 @@ button:hover {
 }
 /*contact*/
 .contact {
-  padding-top: 3.5rem;
+  padding-top: 7.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
   border-radius: 50px 50px 0 0;
@@ -605,6 +605,9 @@ footer {
   }
 
   /*contact*/
+  .contact {
+    padding-top: 10.5rem;
+  }
   .contact h2 {
     text-align: center;
   }
