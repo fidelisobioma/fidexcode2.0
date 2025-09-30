@@ -162,7 +162,7 @@ button:hover {
   display: flex;
   gap: 0.81rem;
   margin-top: 2rem;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 .im {
