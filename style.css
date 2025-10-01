@@ -72,7 +72,7 @@ img {
   height: auto;
 }
 .close {
-  width: 25px;
+  width: 15px;
   height: auto;
   position: absolute;
   left: 10px;
@@ -85,8 +85,7 @@ img {
   background-color: var(--white);
   list-style: none;
   width: 300px;
-  text-align: center;
-  display: grid;
+  text-align: left;
   padding: 2.5rem;
   border-radius: 0.25rem;
   position: absolute;
@@ -95,7 +94,13 @@ img {
   top: 0;
   right: 0;
 }
-
+.nav-list li {
+  padding-top: 1.5rem;
+}
+#navcontact {
+  display: inline-block;
+  margin-top: 1.5rem;
+}
 .nav-list li a {
   font-family: var(--font-vietnan);
   color: var(--blue);
